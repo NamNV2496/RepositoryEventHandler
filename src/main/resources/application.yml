@@ -1,0 +1,11 @@
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/db_example'
+    username: root
+    password: root
+    hikari:
+      validationTimeout: 5000
